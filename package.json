@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "micro-web-metadata",
+  "version": "0.0.1",
+  "description": "Microservice for retrieving metadata from a URL",
+  "main": "index.js",
+  "dependencies": {
+    "metascraper": "^1.0.7",
+    "micro": "^9.0.1",
+    "micro-boom": "^1.1.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.4.0"
+  },
+  "scripts": {
+    "test": "standard",
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "Mathias Rasmussen <mathiasvr@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasvr/micro-web-metadata.git"
+  },
+  "keywords": [
+    "micro",
+    "metadata",
+    "open-graph",
+    "scraper"
+  ],
+  "bugs": {
+    "url": "https://github.com/mathiasvr/micro-web-metadata/issues"
+  },
+  "homepage": "https://github.com/mathiasvr/micro-web-metadata#readme"
+}
