@@ -5,5 +5,11 @@ Microservice for retrieving metadata from a URL, based on Open Graph, Twitter Ca
 
 ## usage
 ```bash
-curl 'http://localhost:3000?url=https://github.com/mathiasvr/micro-web-metadata'
+curl 'https://web-metadata.now.sh/?url=https://github.com/mathiasvr/micro-web-metadata'
+```
+
+## deployment
+Deploy with [now](https://zeit.co/now):
+```bash
+now mathiasvr/micro-web-metadata
 ```
