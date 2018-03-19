@@ -5,12 +5,13 @@
   "description": "Microservice for retrieving metadata from a URL",
   "main": "index.js",
   "dependencies": {
-    "metascraper": "^1.0.7",
-    "micro": "^9.0.1",
+    "got": "^8.3.0",
+    "metascraper": "^3.9.2",
+    "micro": "^9.1.4",
     "micro-boom": "^1.1.0"
   },
   "devDependencies": {
-    "micro-dev": "^1.4.0"
+    "micro-dev": "^2.2.2"
   },
   "scripts": {
     "test": "standard",
